@@ -12,13 +12,14 @@ public class Main {
 
         while (true) {
             System.out.println();
-            System.out.println("What do you wish to do?");
+            System.out.println("Choose a calculation");
             System.out.println("1: Add");
             System.out.println("2: Subtract");
             System.out.println("3: Multiply");
             System.out.println("4: Divide");
             System.out.println();
 
+            System.out.print("Choose wisely...: ");
             int operator = scanner.nextInt();
 
             System.out.println();
