@@ -27,6 +27,7 @@ public class Main {
             System.out.print("Enter second number: ");
             int num2 = scanner.nextInt();
 
+            System.out.println();
             System.out.print("Result: ");
             switch (operator) {
                 case 1:
